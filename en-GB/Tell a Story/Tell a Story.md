@@ -1,5 +1,5 @@
 ---
-title: Tell a Story
+title: Tell a Minecraft Story
 level: HTML & CSS 1
 language: en-GB
 embeds: "*.png"
@@ -9,7 +9,7 @@ stylesheet: web
 
 # Introduction { .intro}
 
-In this project, you'll learn how to create your own webpage to tell a story, joke or poem.
+In this project, you'll learn how to create your own webpage to tell a story about Minecraft.
 
 ![screenshot](story-final.png)
 
@@ -20,26 +20,32 @@ Before you get coding, you'll need to decide on a story to tell.
 ## Activity Checklist { .check}
 
 + Think about the story you want to tell. It could be:
-	+ A famous story;
-	+ A story you have made up;
-	+ Something that has happened to you or someone you know.
+	+ How you built something;
+	+ What happened in your Minecraft world;
+	+ A tour around your finished building.
 
-	It doesn't even have to be a story. It could be a joke, a poem, or anything else you want!
+# Step 2: Log in to Trinket { .activity}
 
-# Step 2: Editing your story { .activity}
-
-Let's start by editing the HTML content and CSS style of the story webpage.
+Now you know what story you're going to tell, you need to log in to Trinket so you can bring in images from Minecraft.
 
 ## Activity Checklist { .check}
 
-+ Open this trinket: <a href="http://jumpto.cc/web-story" target="_blank">jumpto.cc/web-story</a>. If you're reading this online, you can also use the embedded version of this trinket below.
++ Follow the FJS Code Club HTML Login Instructions
+	+ You should end up on the Trinket Welcome page
 
-<div class="trinket">
-	<iframe src="https://trinket.io/embed/html/8083cfebb3" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-	</iframe>
-</div>
+	![screenshot](trinket-welcome.png)
 
-+ You might remember from the 'Happy Birthday' project that webpage content goes in the `<body>` of the HTML document.
+# Step 3: Editing your story { .activity}
+
+Let's continue by editing the HTML content and CSS style of the story webpage.
+
+## Activity Checklist { .check}
+
++ Click on this trinket link to start: <a href="http://jumpto.cc/web-story" target="_blank">jumpto.cc/web-story</a> -- you should end up with another window containing the Trinket shown below:
+
+![screenshot](story-start.png)
+
++ Webpage content goes in the `<body>` of the HTML document.
 
 	Go to line 7 of the code, and you should see the webpage content, which is inside `<body>` and `</body>` tags.
 
@@ -61,11 +67,15 @@ Edit the HTML and the CSS code to customise your webpage.
 
 You can alter the colours used in the webpage, and you can also use fonts like <span style="font-family: Arial;">Arial</span>, <span style="font-family: Comic Sans MS;">Comic Sans MS</span>, <span style="font-family: Impact;">Impact</span> and <span style="font-family: Tahoma;">Tahoma</span>.
 
-If you need more help, you can use the 'Happy Birthday' project to help you.
+If you need more help, you can use the <a href="https://www.codeclubprojects.org/en-GB/webdev/happy-birthday/">Happy Birthday</a> project to help you.
 
-## Save Your Project {.save}
+## Save Your Project {.save .check}
 
-# Step 3: Telling your story { .activity}
++ To save your project, just click on the Remix button at the top right of your trinket
+	+ The button should change to show a Save button and a slider that lets you switch back to the original version
+	+ Click the Save button to save your changes in the future
+
+# Step 4: Telling your story { .activity}
 
 Let's add a second part to your story.
 
@@ -99,7 +109,11 @@ Let's add a second part to your story.
 
 	![screenshot](story-image.png)
 
-+ __If you have a Trinket account__, you can also upload your own images to your webpage! To do this, click the image icon at the top of your trinket and then click 'upload'.
++ You can also upload your own images to your webpage! To do this, first click the image icon at the top of your trinket -- you will see a list of built-in images you can add to this project
+
+	![screenshot](trinket-images.png)
+
++ Click the Add Image button to see a list of any images you have uploaded so far -- click the Upload button to add a new one
 
 	![screenshot](story-upload.png)
 
@@ -112,6 +126,10 @@ Let's add a second part to your story.
 	```
 	<img src="buildings.png">
 	```
+
++ To grab a screenshot from Minecraft, press F2. You can take a screenshot without the toolbox and your arm by pressing F1 first (and bring the toolbox back by pressing F1 again afterwards).
+	+ The screenshot will be saved in `%appdata%\.minecraft/screenshots`
+	+ Try pressing F5 to get a different perspective!
 
 ## Save Your Project {.save}
 
